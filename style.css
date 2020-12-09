@@ -1,0 +1,310 @@
+body h1 {
+  background-color: palevioletred;
+  margin-left: 15;
+}
+h4 {
+  color: pink;
+
+  margin-left: 15;
+}
+#header {
+  background-size: 100px 60px;
+  background-repeat: no-repeat;
+
+  background-image: url('https://as2.ftcdn.net/jpg/00/89/22/73/500_F_89227340_M3HqJadFlqNQJR96NvYjPwUFKXtln2Z0.jpg');
+}
+#copyright {
+  border: 1px solid lightgray;
+}
+
+#section {
+  color: pink;
+  text-align: right;
+  border: 1px solid pink;
+}
+header {
+  margin-left: 45px;
+  margin-right: 35px;
+  margin-top: 35px;
+  display: flex;
+
+  justify-content: space-between;
+}
+#menu {
+  width: 75px;
+  text-align: center;
+  color: pink;
+}
+
+#search-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+#search-wrapper input {
+  flex: 1;
+
+  max-width: 1000px;
+
+  height: 27px;
+
+  vertical-align: bottom;
+
+  border: 1px solid lightgray;
+
+  color: black;
+
+  font-size: 1em;
+
+  padding-left: 10px;
+}
+
+#search-wrapper button {
+  height: 31px;
+
+  margin-left: -6px;
+
+  padding-left: 20px;
+  padding-right: 20px;
+
+  border-radius: 0;
+
+  border: 1px solid pink;
+
+  color: pink;
+}
+
+#sign-in {
+  color: pink;
+  border: 1px;
+  background-color: white;
+  border: 1px solid pink;
+  padding: 3px 5px;
+
+  font-weight: 60;
+  align-items: center;
+}
+
+#sign {
+  background-color: white;
+  vertical-align: middle;
+}
+#sign-in i {
+  vertical-align: middle;
+}
+#sign-in3 {
+  background-color: pink;
+}
+#sign-in3:hover {
+  background-color: white;
+}
+
+#user-options {
+  display: flex;
+  color: yellow;
+
+  justify-content: space-evenly;
+
+  align-items: center;
+}
+body {
+  width: 90%;
+  margin: auto;
+  background-image: url('https://www.freepik.com/free-photo/elegant-flower-near-frame_1722244.htm ');
+}
+
+body h1 {
+  padding: 10px;
+
+  border-radius: 15px;
+  margin: 30px;
+  cursor: pointer;
+  color: pink;
+}
+body p {
+  padding: 10px;
+  border: 1px solid pink;
+  border-radius: 15px;
+  margin: 10px;
+  cursor: pointer;
+}
+body h3 {
+  padding: 10px;
+  border: 10px solid pink;
+  border-radius: 40px;
+  margin: 30px;
+  cursor: pointer;
+}
+.row {
+  display: flex;
+  margin: 30px;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+.column1 {
+  border-radius: 15px;
+  flex: 33.33%;
+  padding: 5px;
+  vertical-align: top;
+}
+
+figure {
+  float: left;
+  height: 10px;
+  margin: 1em 2em 0 0;
+}
+
+#popup {
+  display: none;
+  position: fixed;
+  top: 50px;
+  left: 50px;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid black;
+  cursor: default;
+  z-index: 1000;
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+}
+nav {
+  background-color: pink;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav a:link,
+nav a:visited {
+  display: block;
+  color: #ffffff;
+  background-color: pink;
+  text-align: center;
+  padding: 8px 12px;
+  text-decoration: none;
+  border-left: 1px inset #ecefec;
+  border-right: 1px inset #ecefec;
+}
+
+nav ul li ul {
+  padding: 8px 12px;
+  position: absolute;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s;
+}
+
+nav ul li:hover ul {
+  display: block;
+  padding: 0;
+  width: 150px;
+  opacity: 1;
+  visibility: visible;
+}
+
+nav ul li ul li {
+  display: block;
+  text-align: left;
+  width: 150px;
+}
+
+nav a:hover {
+  background-color: pink;
+  color: #ffffff;
+}
+.clear {
+  clear: both;
+}
+
+.center {
+  text-align: center;
+  padding-top: 0.6em;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px;
+  z-index: 9;
+}
+
+.form-container {
+  max-width: 500px;
+  padding: 150px;
+  background-color: white;
+}
+
+.add:hover {
+  background-color: pink;
+}
+#contactForm {
+  align-content: center;
+  padding-left: 30%;
+  width: 150%;
+  margin: auto;
+  background-size: 10px;
+}
+#contact {
+  align-content: center;
+  width: 30%;
+  padding: 12px 2px;
+  margin-right: 20px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding-right: 10px;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.checked {
+  color: pink;
+}
+#contact1 {
+  align-content: center;
+  width: 30%;
+  padding: 12px 2px;
+  margin-right: 20px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding-right: 10px;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}

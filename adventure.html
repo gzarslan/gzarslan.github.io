@@ -1,0 +1,255 @@
+
+<!--Gozde Arslan
+Student Id:1503201901
+Web222 Final Project
+ -->
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>www.bookshore.com</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  <script src="script.js">
+  </script>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+      type="text/css"
+    />   
+    <!-- Font Awesome Icon Library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+      type="text/css"
+    />
+      <form>
+ <input type="button" value="Go back!" onclick="history.back()">
+</form>
+
+
+   
+</head>
+<body>
+<!--Body Starts-->
+<!--When you click sig in the form pop up will show up -->
+<div class="form-popup" id="Form">
+  <form action="https://httpbin.org/post" class="form-container">
+  <h3>Login</h3>
+  Username:  <input type="text" name="fist" text-align="left" size="20"  title="Enter your First Name" value="Enter Username.."><br><br>
+  Password:  <input type="password" name="password" value=""><br><br>
+  <div> <input type="checkbox" name="Remember">Remember User </div><br>   
+  <button type="submit" class="btn">Login</button>
+  <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+ <h1 id="header">BOOKSHORE </h1>
+ <!--Header Starts-->
+   <header>
+     <div id="menu"><i class="material-icons">menu</i> </div>
+     <div id="search-wrapper"><input value="search..."><button><i class="material-icons md-18">search</i></button></div>
+   <div id="user-options">
+     <button id="sign"onclick="">  <i class="material-icons" onclick="">favorite</i>
+     <button id="sign"onclick=""><i class="material-icons">book</i>
+     <form method="get"  action="http://facebook.com"> 
+     <button id="sign"onclick="" href="http://facebook.com">  <i class="material-icons">facebook</i> </form>
+     <form method="get"   action="contact.html"> 
+     <button id="sign"onclick="" href="">  <i class="material-icons">phone</i> Contact</form>
+     <button id="sign"onclick="">  <i class="material-icons">shopping_cart</i>
+     <button id="sign-in3":hover onclick="openForm()"><i class="material-icons">account_circle</i> SIGN IN</button> 
+    </div>  
+  </header> 
+
+  <nav>
+    <ul>
+      <li>
+        <a href="#">BOOK GENRE</a>
+         <ul>
+          <li id="menu_action"><a href="index.html">All Books </a></li>
+          <li id="menu_action"><a href="action.html">ACTION </a></li>
+          <li id="menu_adventure"><a href="adventure.html">ADVENTURE</a></li>
+          <li id="menu_comics"><a href="nonfiction.html">NON-FICTION</a></li>
+          </ul>
+          </li>
+          <li>
+            <a href="indext.html">HOME</a>
+            <ul>
+              <li id="menu">
+                <a href="Honest.html">ABOUT</a>
+              </li>
+          
+            </ul>
+          </li>
+          </ul>
+         </li>
+        </ul>
+      </nav>
+
+<h3></h3>
+
+    <div id="container">
+
+      <div class="row">
+      <div class="column" id="picFrom">
+  
+    
+ 
+  </div>
+
+  <div class="column">
+    
+  </div>
+  <div class="column">
+    
+
+     
+  </div>
+   <div class="column">
+     
+  </div>
+
+
+
+  
+</div> 
+   <div id="container1">
+    <div class="row">
+  <div class="column">
+   <fieldset id="fileset">
+  <legend>Adventure</legend>
+  <button id="sign-in">  <i class="material-icons" onclick="">favorite</i><img src="images/action5.jpg" alt="" style="width:60%">
+      <button class="add":hover onclick="myFunction()">Add chart   </button>
+     <button class="add-button" onclick="addForm()">25$</button>
+       <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+       <span class="fa fa-star"></span>
+    <p>The Cowboy Who Saved The Christmas</p>
+    </fieldset>
+    
+     
+  </div>
+  <div class="column">
+    <fieldset id="fileset">
+  <legend>Adventure</legend>
+  <button id="sign-in">  <i class="material-icons" onclick="">favorite</i>
+    <img src="images/action6.jpg" alt="" style="width:64%">
+      <button class="add":hover onclick="myFunction()">Add chart   </button>
+     <button class="add-button" onclick="addForm()">23$</button>
+    <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+       <span class="fa fa-star"></span>
+     <p>Winter White and Wicked</p>
+      </fieldset>
+  </div>
+  <div class="column">
+    <fieldset id="fileset">
+  <legend>Adventure</legend>
+  <button id="sign-in">  <i class="material-icons" onclick="">favorite</i>
+    <img src="images/action7.jpg" alt="" style="width:64%">
+     <button class="add":hover onclick="myFunction()">Add chart   </button>
+       <button class="add-button" onclick="addForm()">19$</button>
+         <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+       <span class="fa fa-star"></span>
+    <span class="pricetag"></span>
+     <p>The Language of ghost</p>
+      </fieldset>
+  </div>
+   <div class="column">
+     <fieldset id="fileset">
+  <legend>Adventure</legend>
+   <button id="sign-in">  <i class="material-icons" onclick="">favorite</i>
+    <img src="images/action8.jpg" alt="" style="width:62%">
+      <button class="add":hover onclick="myFunction()">Add chart   </button>
+     <button class="add-button" onclick="addForm()">13$</button>
+     <span class="fa fa-star checked"></span>
+   <span class="fa fa-star "></span>
+      <span class="fa fa-star "></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+
+     <p>Master Of Poisons</p>
+      </fieldset>
+  </div>
+   
+  </div>
+
+
+   
+  </div> </div>
+
+   
+</body>
+
+<!--Body Ends-->
+
+<!--Footer Starts-->   
+  <footer>
+      <li> <a href="contact.html">Contact Us</a></li> 
+      <br>  
+      <li><i class="material-icons"  >phone </i> </li> 222-333-444 <br> 
+           <li> <i class="material-icons">mail </i> </li>
+       bookshore@book.com
+    </li>
+    <br><br>
+    <br>
+
+
+    <!--Subscription from to sent fromspree-->
+   <fieldset id="fileset">
+  <legend>Subscribe</legend>
+     <form id="signin" action="https://formspree.io/f/xdopwabk" method="post">
+  <label for="email">Your Email</label>
+  <input name="Email" id="email" type="email">
+  <button type="submit">Subscribe</button> 
+   <label>
+   <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+    </label>
+   </form>
+     </fieldset>
+  
+     </div>
+  </div>
+
+ 
+</form> 
+    
+        <p class="center">&copy; 2020 Gozde Arslan</p>
+</footer>   
+  <!--Alert script for added chart-->
+<script>
+function myFunction() {
+  alert("Added in your Shopping Chart");
+}
+</script>
+     <!--signin button options -->
+ <script>
+function openForm() {
+  document.getElementById("Form").style.display = "block";
+}
+function addForm() {
+  document.getElementById("picForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("Form").style.display = "none";
+
+       
+    
+}
+</script>
+
+ 
+</html>
+
