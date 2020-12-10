@@ -11,7 +11,7 @@ function closeForm() {
 }
 closeForm.innerHTML;
 function myFunction() {
-  // eslint-disable-next-line no-alert
+ 
   alert('Added in your Shopping Chart');
 }
 myFunction.innerHTML;
